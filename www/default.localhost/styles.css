@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.button_text {
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #C1C2CD;
+}
+
+.button_background {
+  color: white;
+  background: #296C99;
+}
+
+.body {
+  margin-top: 5vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.user_icon {
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.report-table {
+  display: flex;
+  align-items: center;
+}
+
+.report-text {
+  margin: 10px;
+  text-align: center;
+}
+
+
+.report {
+  margin: 2vw;
+  width: 300px;
+  height: auto;
+  background: rgb(182, 124, 124);
+  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
+  color: black;
+  box-shadow: 20px 20px rgba(0, 0, 0, .15);
+  transition: all .4s ease;
+}
+
+.report:hover {
+  border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+  box-shadow: 10px 10px rgba(0, 0, 0, .25);
+}
